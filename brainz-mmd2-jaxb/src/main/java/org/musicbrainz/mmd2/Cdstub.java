@@ -65,7 +65,8 @@ import org.w3c.dom.Element;
     "barcode",
     "comment",
     "trackList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "cdstub")
 public class Cdstub {

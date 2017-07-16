@@ -23,5 +23,9 @@ but there are a couple of manual steps.
 
 5. Edit DiscList.java and MediumList.java, adding "count", "offset" to the prop order for those classes. Do the same for the TrackList class in Medium.java.
 
-6. Build package and then install locally so visible to search server project
+6. Add "score" to the prop order of all classes that can have a score attribute.
+`sed -i -e 's|"defExtensionElement"$|"defExtensionElement",\n    "score"|g' **/*.java` Will do this for all of them,
+except for Editor, Tag, Url, UserTag.
+
+7. Build package and then install locally so visible to search server project
    mvn install

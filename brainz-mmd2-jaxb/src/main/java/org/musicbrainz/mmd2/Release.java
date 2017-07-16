@@ -92,7 +92,8 @@ import org.w3c.dom.Element;
     "tagList",
     "userTagList",
     "collectionList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "release")
 public class Release {

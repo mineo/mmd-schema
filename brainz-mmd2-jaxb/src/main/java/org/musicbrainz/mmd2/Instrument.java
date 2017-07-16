@@ -66,7 +66,8 @@ import org.w3c.dom.Element;
     "relationList",
     "tagList",
     "userTagList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "instrument")
 public class Instrument {

@@ -63,7 +63,8 @@ import javax.xml.namespace.QName;
     "bio",
     "area",
     "languageList",
-    "editInformation"
+    "editInformation",
+    "score"
 })
 @XmlRootElement(name = "editor")
 public class Editor {

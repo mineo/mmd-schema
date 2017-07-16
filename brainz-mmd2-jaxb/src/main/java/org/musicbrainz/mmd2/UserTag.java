@@ -42,7 +42,8 @@ import javax.xml.namespace.QName;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "name"
+    "name",
+    "score"
 })
 @XmlRootElement(name = "user-tag")
 public class UserTag {

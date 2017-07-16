@@ -54,7 +54,8 @@ import org.w3c.dom.Element;
     "entity",
     "name",
     "text",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "annotation")
 public class Annotation {

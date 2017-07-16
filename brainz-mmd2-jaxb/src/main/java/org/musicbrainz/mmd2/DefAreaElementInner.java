@@ -73,7 +73,8 @@ import org.w3c.dom.Element;
     "relationList",
     "tagList",
     "userTagList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 public class DefAreaElementInner {
 

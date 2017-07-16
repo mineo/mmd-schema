@@ -61,7 +61,8 @@ import org.w3c.dom.Element;
     "sectors",
     "offsetList",
     "releaseList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "disc")
 public class Disc {

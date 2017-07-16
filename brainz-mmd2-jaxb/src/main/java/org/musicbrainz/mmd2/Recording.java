@@ -81,7 +81,8 @@ import org.w3c.dom.Element;
     "userTagList",
     "rating",
     "userRating",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "recording")
 public class Recording {

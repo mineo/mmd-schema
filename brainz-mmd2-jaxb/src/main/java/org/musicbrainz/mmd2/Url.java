@@ -48,7 +48,8 @@ import javax.xml.namespace.QName;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
     "resource",
-    "relationList"
+    "relationList",
+    "score"
 })
 @XmlRootElement(name = "url")
 public class Url {

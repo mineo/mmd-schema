@@ -63,7 +63,8 @@ import org.w3c.dom.Element;
     "category",
     "year",
     "trackList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "freedb-disc")
 public class FreedbDisc {

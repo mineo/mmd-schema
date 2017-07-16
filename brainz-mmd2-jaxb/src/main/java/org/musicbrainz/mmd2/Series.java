@@ -66,7 +66,8 @@ import org.w3c.dom.Element;
     "relationList",
     "tagList",
     "userTagList",
-    "defExtensionElement"
+    "defExtensionElement",
+    "score"
 })
 @XmlRootElement(name = "series")
 public class Series {
